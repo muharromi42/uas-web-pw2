@@ -50,6 +50,11 @@ class BarangModel extends Model
         return $this->findAll();
     }
 
+    public function updateBarang($id, $data)
+    {
+        return $this->update($id, $data);
+    }
+
     public function deleteBarang($id)
     {
         return $this->delete($id);

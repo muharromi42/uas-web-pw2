@@ -53,7 +53,7 @@
                         <td><?php echo $barang['jumlah'] ?></td>
                         <td>Rp.<?php echo $barang['harga']; ?></td>
                         <td>
-                            <a href="/edit/<?= $barang['id']; ?>" class="btn btn-info btn-sm btn-edit">Edit</a>
+                            <a href="/barang/edit/<?= $barang['id']; ?>" class="btn btn-info btn-sm btn-edit">Edit</a>
                             <a href="/barang/delete/<?= $barang['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?');" class="btn btn-danger btn-sm btn-delete">Delete</a>
                         </td>
                     </tr>
